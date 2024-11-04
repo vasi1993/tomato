@@ -20,6 +20,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/order" element={<PlaceOrder />} />
+          <div>1</div>
+          <div>2</div>
         </Routes>
       </div>
       <Footer />
